@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>❤️ San Valentín ❤️</title>
+
+    <!-- CSS -->
+    <link href="~/Content/css/valentin.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- VIDEO DE FONDO -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="~/Content/video/video.mp4" type="video/mp4">
+    </video>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="contenedor">
+
+        <!-- IMAGENES TRISTES -->
+        <div id="imagenesTristes" class="imagenes-tristes"></div>
+
+        <!-- PREGUNTA -->
+        <div id="mensajeNo" class="mensaje-no"></div>
+        <h1 class="pregunta">¿Quieres ser mi San Valentín? 💖</h1>
+
+        <!-- BOTONES -->
+        <div class="botones">
+            <button id="btnSi" class="btn si">SI 💕</button>
+            <button id="btnNo" class="btn no">NO 😢</button>
+        </div>
+    </div>
+
+    <!-- MENSAJE FINAL -->
+    <div id="mensajeFinal" class="mensaje-final oculto">
+        ❤️ Te Amo mucho Mi Vida, Ya sabía que sí querías!! ❤️
+        <img src="~/Content/img/feliz.jpeg" class="img-feliz" />
+    </div>
+
+    <!-- JS -->
+    <script src="~/Content/js/valentin.js"></script>
+
+</body>
+</html>
